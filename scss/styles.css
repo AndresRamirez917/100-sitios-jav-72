@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+  color: violet;
+}
+
+.title {
+  font-size: 3rem;
+  -webkit-text-decoration: transparent;
+          text-decoration: transparent;
+}
+
+.subtitle {
+  font-size: 2rem;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 3rem 0;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 30px;
+  overflow: auto;
+}
+
+.btn {
+  display: block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background: #000;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  flex: 1;
+  gap: 50px;
+}
+
+img {
+  max-width: 100%;
+}
+
+::-moz-placeholder {
+  font-family: "Font Awesome 5 free";
+  font-weight: 600;
+  content: "\f007";
+  text-align: right;
+}
+
+::placeholder {
+  font-family: "Font Awesome 5 free";
+  font-weight: 600;
+  content: "\f007";
+  text-align: right;
+}
+
+form {
+  padding: 20px 50px;
+  box-shadow: 10px 10px 10px rgba(208, 17, 17, 0.5);
+}
+form .form-group {
+  margin-bottom: 1rem;
+}
+form .form-control {
+  width: 100%;
+  display: block;
+  padding: 1rem;
+  border-radius: 5px;
+}
+form button {
+  width: 100%;
+}
+form button:hover {
+  background: rgb(45, 43, 43);
+}
+
+#mainheader .navbar .logo {
+  margin-top: 2rem;
+  width: 25px;
+}
+#mainheader .navbar ul {
+  margin-top: 3rem;
+  display: flex;
+}
+#mainheader .navbar ul li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+#mainheader .navbar .container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#showcase {
+  width: 90%;
+  margin: 0 auto;
+}
+#showcase .showcase-flex {
+  margin-top: 10rem;
+  display: flex;
+  gap: 100px;
+}
+#showcase .showcase-flex .showcase-text {
+  text-align: center;
+}
+#showcase .showcase-flex .showcase-text h1 {
+  margin-top: 5rem;
+  font-size: 6rem;
+}
+#showcase .showcase-flex .showcase-text h3 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+#showcase .showcase-flex img {
+  width: 40%;
+}
+
+#about .about-flex {
+  display: flex;
+  gap: 50px;
+}
+#about .about-flex img {
+  width: 50%;
+}
+#about .about-flex .about-text h3 {
+  font-size: 1.5rem;
+}
+#about .about-flex .about-text h4 {
+  margin: 1rem 0;
+}
+#about .about-flex .about-text p {
+  margin-top: 2rem;
+  line-height: 30px;
+  text-align: justify;
+}
+
+#about-skills .about-skills-flex {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  gap: 50px;
+}
+#about-skills .about-skills-flex .about-box {
+  display: flex;
+  flex: 1;
+  gap: 50px;
+  margin-left: 200px;
+  margin-bottom: 3rem;
+}
+#about-skills .about-skills-flex .about-box img {
+  width: 30%;
+}
+#about-skills .about-skills-flex .about-box .about-skills-text h3 {
+  margin: 1rem 0;
+}
+
+#about-timeline .about-timeline-flex {
+  display: flex;
+  gap: 50px;
+  margin-left: 100px;
+  width: 30%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+#about-timeline .about-timeline-flex h3 {
+  background: rgba(128, 128, 128, 0.636);
+  margin-bottom: 1rem;
+  padding: 10px;
+  border-radius: 50px;
+}
+#about-timeline .about-timeline-flex .circle-text h4 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+#portfolio .porfolio-flex .box-1 {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5rem;
+}
+#portfolio .porfolio-flex .box-1 h4 {
+  text-align: center;
+  padding: 3rem;
+  text-transform: capitalize;
+}
+
+#contact form {
+  width: 70%;
+  background: #fff;
+  margin: 20px auto;
+  padding: 70px 50px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+#contact form .flex-box-1 {
+  flex: 1;
+}
+
+#footer {
+  text-align: center;
+  padding: 3rem 0;
+}/*# sourceMappingURL=styles.css.map */

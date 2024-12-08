@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+$font-stack:"Montserrat", sans-serif;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: $font-stack;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+    color: violet;
+}
+
+.title {
+    font-size: 3rem;
+    text-decoration: transparent;
+}
+
+.subtitle {
+    font-size: 2rem;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 3rem 0;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 30px;
+    overflow: auto;
+}
+
+.btn {
+    display: block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background: #000;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+    flex: 1;
+    gap: 50px;
+}
+
+img {
+    max-width: 100%;
+}
+
+::placeholder {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    content: "\f007";
+    text-align: right;
+}
+
+form {
+    padding: 20px 50px;
+        box-shadow: 10px 10px 10px rgba(208, 17, 17, 0.5);
+    .form-group {
+        margin-bottom: 1rem;
+    }
+    .form-control {
+        width: 100%;
+        display: block;
+        padding: 1rem;
+        border-radius: 5px;
+    }
+    button {
+        width: 100%;
+    }
+    button:hover {
+        background: rgb(45, 43, 43);
+    }
+}
+
+//mainheader
+#mainheader {
+    .navbar {
+        .logo {
+            margin-top: 2rem;
+            width: 25px;
+        }
+        ul {
+            margin-top: 3rem;
+            display: flex;
+            li {
+                display: inline-block;
+                margin-left: 1rem;
+            }
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+    }
+}
+
+//showcase
+#showcase {
+    width: 90%;
+    margin: 0 auto;
+    .showcase-flex {
+        margin-top: 10rem;
+        display: flex;
+        gap: 100px;
+        .showcase-text {
+            text-align: center;
+            h1 {
+                margin-top: 5rem;
+                font-size: 6rem;
+            }
+            h3 {
+                font-size: 1.5rem;
+                margin-top: 2rem;
+            }
+        }
+        img {
+            width: 40%;
+        }
+    }
+}
+
+//about
+#about {
+    .about-flex {
+        display: flex;
+        gap: 50px;
+        img {
+            width: 50%;
+        }
+        .about-text {
+            h3 {
+                font-size: 1.5rem;
+            }
+            h4 {
+                margin: 1rem 0;
+            }
+            p {
+                margin-top: 2rem;
+                line-height: 30px;
+                text-align: justify;
+            }
+        }
+    }
+   
+   
+}
+
+#about-skills {
+    .about-skills-flex {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        gap: 50px;
+        .about-box {
+            display: flex;
+            flex: 1;
+            gap: 50px;
+           margin-left: 200px;
+           margin-bottom: 3rem;
+           img {
+            width: 30%;
+           }
+           .about-skills-text {
+            h3 {
+                margin: 1rem 0;
+            }
+           }
+        }
+    }
+}
+
+#about-timeline {
+    .about-timeline-flex {
+        display: flex;
+        gap: 50px;
+        margin-left: 100px;
+        width: 30%;
+        margin: 0 auto;
+        padding: 2rem 0;
+        h3 {
+            background: rgba(128, 128, 128, 0.636);
+            margin-bottom: 1rem;
+            padding: 10px;
+            border-radius: 50px;
+        }
+        .circle-text {
+            h4 {
+                font-size: 2rem;
+                margin-bottom: .5rem;
+            }
+        }
+
+    }
+}
+
+//portfolio
+#portfolio {
+    .porfolio-flex {
+        .box-1 {
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 5rem;
+            h4 {
+                text-align: center;
+                padding: 3rem;
+                text-transform: capitalize;
+            }
+        }
+    }
+}
+
+//contact
+#contact {
+
+    form {
+    width: 70%;
+    background: #fff;
+	margin: 20px auto; //centra y muestra todo el box-shadow
+	padding: 70px 50px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+        .flex-box-1 {
+            flex: 1;
+        }
+    }
+}
+
+//footer
+#footer {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+

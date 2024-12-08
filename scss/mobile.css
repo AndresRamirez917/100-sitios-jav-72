@@ -1,0 +1,67 @@
+#mainheader .navbar .logo {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+#mainheader .navbar ul {
+  display: block;
+  text-align: center;
+}
+#mainheader .navbar li {
+  font-size: small;
+}
+#mainheader .navbar .container {
+  display: block;
+}
+
+#showcase .showcase-flex {
+  margin-top: 0;
+  display: block;
+}
+#showcase .showcase-flex .showcase-text h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+#showcase .showcase-flex .showcase-text h3 {
+  font-size: medium;
+  margin: 2rem 0;
+}
+#showcase .showcase-flex img {
+  width: 100%;
+}
+
+#about .about-flex {
+  display: block;
+}
+#about .about-flex img {
+  width: 100%;
+}
+
+#about-skills .about-skills-flex {
+  display: block;
+  text-align: center;
+}
+#about-skills .about-skills-flex .about-box {
+  display: block;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+#about-timeline .about-timeline-flex {
+  display: block;
+}
+#about-timeline .about-timeline-flex h3 {
+  font-size: 0.8rem;
+  text-align: center;
+}
+#about-timeline .about-timeline-flex .circle-text {
+  text-align: center;
+}
+
+#portfolio .porfolio-flex {
+  display: block;
+}
+#portfolio .porfolio-flex .box-1 img {
+  width: 100%;
+}/*# sourceMappingURL=mobile.css.map */
