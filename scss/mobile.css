@@ -59,8 +59,8 @@
   text-align: center;
 }
 
-#portfolio .porfolio-flex {
-  display: block;
+#portfolio .porfolio-flex .box-1 {
+  width: 100%;
 }
 #portfolio .porfolio-flex .box-1 img {
   width: 100%;
