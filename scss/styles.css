@@ -206,9 +206,18 @@ form button:hover {
   margin-bottom: 0.5rem;
 }
 
+#portfolio .porfolio-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 #portfolio .porfolio-flex .box-1 {
+  width: 33%;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 5rem;
+}
+#portfolio .porfolio-flex .box-1 img {
+  border-radius: 5px;
 }
 #portfolio .porfolio-flex .box-1 h4 {
   text-align: center;

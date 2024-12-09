@@ -226,9 +226,16 @@ form {
 //portfolio
 #portfolio {
     .porfolio-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         .box-1 {
+            width: 33%;
             box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
             margin-bottom: 5rem;
+            img {
+                border-radius: 5px;
+            }
             h4 {
                 text-align: center;
                 padding: 3rem;
