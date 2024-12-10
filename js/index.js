@@ -31,7 +31,7 @@ async function getData() {
 }
 getData()
 
-const techArr = ["Boostrap", "Css", "Html", "Sass", "Js", "Wordpress"]
+const techArr = [["Boostrap", "lok"], ["Css", "madre"], ["Html", "perro"], ["Sass", "ppp"], ["Js", "popo"], ["Wordpress", "klklk"]]
 async function getData2() {
     const result = await fetch('https://thecocktaildb.com/api/json/v1/1/search.php?s=margarita');
     const coctail = await result.json();
@@ -43,7 +43,8 @@ async function getData2() {
                 <div class="about-box">
                     <img src="${element.strDrinkThumb}" alt="">
                     <div class="about-skills-text">
-                        <h3>${nombre}</h3>
+                        <h3>${nombre[0]}</h3>
+                        <h3>${nombre[1]}</h3>
                         <h4>80%</h4>
                     </div>
                 </div>
