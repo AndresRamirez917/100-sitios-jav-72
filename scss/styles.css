@@ -181,6 +181,7 @@ form button:hover {
 }
 #about-skills .about-skills-flex .about-box img {
   width: 50%;
+  border-radius: 5px;
 }
 #about-skills .about-skills-flex .about-box .about-skills-text h3 {
   margin: 1rem 0;

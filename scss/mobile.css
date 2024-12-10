@@ -47,6 +47,9 @@
   margin: 0 auto;
   padding: 1rem 0;
 }
+#about-skills .about-skills-flex .about-box img {
+  width: 100%;
+}
 
 #about-timeline .about-timeline-flex {
   display: block;
