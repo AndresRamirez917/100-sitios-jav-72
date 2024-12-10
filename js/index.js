@@ -31,7 +31,7 @@ async function getData() {
 }
 getData()
 
-const techArr = [["Boostrap", "lok"], ["Css", "madre"], ["Html", "perro"], ["Sass", "ppp"], ["Js", "popo"], ["Wordpress", "klklk"]]
+const techArr = [["Boostrap", "Este", "80"], ["Css", "es", "85"], ["Html", "un", "100"], ["Sass", "array", "80"], ["Js", "multi", "90"], ["Wordpress", "dimensional", "80"]]
 async function getData2() {
     const result = await fetch('https://thecocktaildb.com/api/json/v1/1/search.php?s=margarita');
     const coctail = await result.json();
@@ -45,7 +45,7 @@ async function getData2() {
                     <div class="about-skills-text">
                         <h3>${nombre[0]}</h3>
                         <h3>${nombre[1]}</h3>
-                        <h4>80%</h4>
+                        <h4>${nombre[2]}%</h4>
                     </div>
                 </div>
                 
